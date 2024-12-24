@@ -252,7 +252,7 @@ class RiceRocks:
                     # Check collide with asteroids
                     rock = self.rocks[j]
 
-                    if missile.collide(rock):  # collide
+                    if missile.collide(rock):  #  collide
                         del self.missiles[i]
                         del self.rocks[j]
 
